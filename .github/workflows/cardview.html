@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="container">
+    <div class="row">
+        {% for i in students %}
+        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><div class="text-center">{{i[1]}}</div>
+                    </h5>
+                  <p class="card-text">Admission Number : {{i[2]}}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">College : {{i[3]}}</li>
+                  <li class="list-group-item">Branch : {{i[4]}}</li>
+                  <li class="list-group-item">Date Of Birth : {{i[5]}}</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

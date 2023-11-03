@@ -1,0 +1,217 @@
+/* Set the background color of the entire page to a light green */
+body {
+    background-color: #C8E6C9; /* You can adjust the shade of green */
+}
+
+/* Style the navigation bar with a dark green background and white text */
+.navbar {
+    background-color: #388E3C; /* Adjust the shade of green for the navbar */
+    color: #fff;
+}
+
+/* Style the navigation links with green color */
+.navbar-nav .nav-link {
+    color: #4CAF50; /* Green color for the navigation links */
+}
+
+/* Style the active link with a slightly darker green background */
+.navbar-nav .nav-item.active {
+    background-color: #2E7D32; /* Slightly darker green for the active link */
+}
+
+/* Set the font weight for the active link to bold */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+/* Style the content with a white background and green text */
+#content {
+    background-color: #fff;
+    color: #4CAF50; /* Green color for the text in the content area */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Set a light green background color for the card view container */
+.container {
+    background-color: #C8E6C9; /* Adjust the shade of green */
+    padding: 20px;
+}
+
+/* Style the card */
+.card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Round the corners */
+    margin-bottom: 20px; /* Spacing between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the card title */
+.card-title {
+    background-color: #388E3C; /* Dark green background for the title */
+    color: #fff; /* White text color for the title */
+    padding: 10px; /* Add some padding to the title */
+    border-top-left-radius: 10px; /* Round the top-left corner of the title */
+    border-top-right-radius: 10px; /* Round the top-right corner of the title */
+    text-align: center; /* Center the title text */
+}
+
+/* Style the card content */
+.card-text, .list-group-item {
+    color: #4CAF50; /* Green text color for card content */
+}
+
+/* Style the links at the bottom of the card */
+.card-link {
+    color: #4CAF50; /* Green text color for card links */
+}
+/* Set a light green background color for the page */
+.container {
+    background-color: #C8E6C9; /* Adjust the shade of green */
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add some padding to the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the form title */
+h3 {
+    background-color: #388E3C; /* Dark green background for the title */
+    color: #fff; /* White text color for the title */
+    padding: 10px; /* Add some padding to the title */
+    border-top-left-radius: 10px; /* Round the top-left corner of the title */
+    border-top-right-radius: 10px; /* Round the top-right corner of the title */
+    text-align: center; /* Center the title text */
+}
+
+/* Style the input field label and button */
+label {
+    color: #4CAF50; /* Green text color for labels */
+}
+
+/* Style the delete button */
+.btn-danger {
+    background-color: #FF5722; /* Change the delete button color (red) */
+}
+
+.btn-danger:hover {
+    background-color: #E64A19; /* Darker red color on hover */
+}
+/* Set a light green background color for the page */
+.container {
+    background-color: #C8E6C9; /* Adjust the shade of green */
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add some padding to the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the form title */
+h3 {
+    background-color: #388E3C; /* Dark green background for the title */
+    color: #fff; /* White text color for the title */
+    padding: 10px; /* Add some padding to the title */
+    border-top-left-radius: 10px; /* Round the top-left corner of the title */
+    border-top-right-radius: 10px; /* Round the top-right corner of the title */
+    text-align: center; /* Center the title text */
+}
+
+/* Style the input field label and button */
+label {
+    color: #4CAF50; /* Green text color for labels */
+}
+
+/* Style the search button */
+.btn-success {
+    background-color: #4CAF50; /* Change the search button color (green) */
+}
+
+.btn-success:hover {
+    background-color: #388E3C; /* Darker green color on hover */
+}
+/* Set a light green background color for the page */
+.container {
+    background-color: #C8E6C9; /* Adjust the shade of green */
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add some padding to the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the form title */
+h3 {
+    background-color: #388E3C; /* Dark green background for the title */
+    color: #fff; /* White text color for the title */
+    padding: 10px; /* Add some padding to the title */
+    border-top-left-radius: 10px; /* Round the top-left corner of the title */
+    border-top-right-radius: 10px; /* Round the top-right corner of the title */
+    text-align: center; /* Center the title text */
+}
+
+/* Style the input field labels and buttons */
+label {
+    color: #4CAF50; /* Green text color for labels */
+}
+
+/* Style the submit button */
+.btn-success {
+    background-color: #4CAF50; /* Change the submit button color (green) */
+}
+
+.btn-success:hover {
+    background-color: #388E3C; /* Darker green color on hover */
+}
+/* Set a light green background color for the page */
+.container {
+    background-color: #C8E6C9; /* Adjust the shade of green */
+    padding: 20px;
+}
+
+/* Style the table */
+table {
+    background-color: #fff; /* White background for the table */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add some padding to the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the table headers */
+thead {
+    background-color: #4CAF50; /* Green background for the headers */
+    color: #fff; /* White text color for the headers */
+}
+
+/* Style the table cells */
+tbody {
+    color: #4CAF50; /* Green text color for table cells */
+}
+
+/* Style table row hover effect */
+tbody tr:hover {
+    background-color: #D7E6DA; /* Light green background on hover */
+}
+
+/* Style table cell borders */
+table td, table th {
+    border: 1px solid #4CAF50; /* Add green borders to table cells */
+}
