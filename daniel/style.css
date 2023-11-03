@@ -1,0 +1,95 @@
+header {
+    background-color: #0dbe24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Add CSS for centering the content */
+.container {
+    display: flex;
+    justify-content: left;
+    
+    height: 100vh; /* This makes the container fill the entire viewport height */
+}
+
+/* CSS for aligning textboxes in the form */
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/* Style for the green submit button */
+input[type="submit"] {
+    background-color: green;
+    color: white; /* Text color */
+    border: none; /* Remove the border for a clean look */
+    padding: 10px 20px; /* Adjust the padding for button size */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Add hover effect to the button */
+input[type="submit"]:hover {
+    background-color: darkgreen; /* Change the background color on hover */
+}
+/* CSS for horizontal alignment of year sections */
+.curriculum {
+    display: flex;
+     /* Wrap the year sections to the next line if necessary */
+    justify-content: flex-start; /* Align the year sections to the start (left) */
+}
+
+.year {
+    width: 20%; /* Control the width of each year section */
+    margin: 30px; /* Add spacing between year sections */
+    align-items: center;
+}
+
+/* Additional styles for the content sections (Semester 1 and 2) */
+#content section {
+    margin: 20px; /* Add spacing between sections */
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+
+nav {
+    background-color: #0fbb57;
+    color: rgb(13, 182, 69);
+    width: 250px;
+    padding: 20px;
+    
+    
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin: 10px 0;
+}
+
+
+
+
+#sidebar a i {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+}
